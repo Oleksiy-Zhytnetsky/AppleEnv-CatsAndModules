@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Networking
+import FirebasePerformance
 
 struct ContentView: View {
     
@@ -17,6 +18,7 @@ struct ContentView: View {
     
     private struct Const {
         static let PAGE_SIZE = 15
+        static let FETCH_CATS_TRACE = "fetch_cats_trace"
     }
     
     var body: some View {
@@ -86,6 +88,11 @@ struct ContentView: View {
         }
         
         do {
+            let trace = Performance.startTrace(name: Const.FETCH_CATS_TRACE)
+            defer {
+                trace?.stop()
+            }
+            
             let resp = try await ApiClient.fetchCats(
                 limit: Const.PAGE_SIZE,
                 page: self.nextPageToLoad

@@ -7,8 +7,15 @@
 
 import SwiftUI
 import Networking
+import FirebasePerformance
 
 struct CatView: View {
+    
+    @State private var loadImgTrace: Trace? = nil
+    
+    private struct Const {
+        static let LOAD_CAT_IMG_TRACE = "load_cat_img_trace"
+    }
     
     public let cat: CatData
     
@@ -19,6 +26,10 @@ struct CatView: View {
                 .zIndex(0)
             
             VStack {
+                Button("Crash") {
+                    fatalError("Crash was triggered")
+                }
+                
                 HStack {
                     Text("Breed: \(cat.mainBreed)")
                         .lineLimit(1)
@@ -32,22 +43,44 @@ struct CatView: View {
                     url: URL(string: cat.url)
                 ) { phase in
                     switch phase {
+                    case .empty:
+                        progressSpinner()
+                            .task {
+                                if (self.loadImgTrace == nil) {
+                                    self.loadImgTrace = Performance.startTrace(
+                                        name: Const.LOAD_CAT_IMG_TRACE
+                                    )
+                                }
+                            }
+                        
                     case .success(let image):
                         image
                             .resizable()
                             .scaledToFit()
                             .clipShape(RoundedRectangle(cornerRadius: 12))
+                            .task {
+                                self.loadImgTrace?.stop()
+                            }
+                        
                     default:
-                        ProgressView()
-                            .frame(
-                                maxWidth: .infinity,
-                                maxHeight: 250
-                            )
+                        progressSpinner()
+                            .task {
+                                self.loadImgTrace?.stop()
+                            }
                     }
                 }
             }
             .zIndex(1)
         }
+    }
+    
+    @ViewBuilder
+    private func progressSpinner() -> some View {
+        ProgressView()
+            .frame(
+                maxWidth: .infinity,
+                maxHeight: 250
+            )
     }
     
 }
