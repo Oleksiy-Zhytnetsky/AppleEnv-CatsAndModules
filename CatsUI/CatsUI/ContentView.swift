@@ -8,6 +8,7 @@
 import SwiftUI
 import Networking
 import FirebasePerformance
+import FirebaseCrashlytics
 
 struct ContentView: View {
     
@@ -19,6 +20,7 @@ struct ContentView: View {
     private struct Const {
         static let PAGE_SIZE = 15
         static let FETCH_CATS_TRACE = "fetch_cats_trace"
+        static let SELECTED_CAT_BREED_LOG = "selected_cat_breed_log"
     }
     
     var body: some View {
@@ -31,20 +33,7 @@ struct ContentView: View {
                                 Array(cats.enumerated()),
                                 id: \.element.id
                             ) { idx, cat in
-                                NavigationLink(value: cat) {
-                                    CatView(cat: cat)
-                                        .frame(
-                                            height: 300
-                                        )
-                                        .padding(.bottom, 5)
-                                        .padding(.horizontal, 5)
-                                }
-                                .buttonStyle(.plain)
-                                .onAppear {
-                                    if (idx >= self.cats.count - 2) {
-                                        loadNextPageIfAble()
-                                    }
-                                }
+                                catViewWrapper(idx, cat)
                             }
                             
                             if (self.isLoadingNextPage) {
@@ -70,6 +59,31 @@ struct ContentView: View {
             loadNextPageIfAble()
         }
         .padding()
+    }
+    
+    @ViewBuilder
+    private func catViewWrapper(_ idx: Int, _ cat: CatData) -> some View {
+        NavigationLink(value: cat) {
+            CatView(cat: cat)
+                .frame(
+                    height: 300
+                )
+                .padding(.bottom, 5)
+                .padding(.horizontal, 5)
+        }
+        .onAppear {
+            if (idx >= self.cats.count - 2) {
+                loadNextPageIfAble()
+            }
+        }
+        .simultaneousGesture(TapGesture().onEnded {
+            Crashlytics.crashlytics().log("Tapped on row \(idx)")
+            Crashlytics.crashlytics().setCustomValue(
+                cat.mainBreed,
+                forKey: Const.SELECTED_CAT_BREED_LOG
+            )
+        })
+        .buttonStyle(.plain)
     }
     
     private func loadNextPageIfAble() {
