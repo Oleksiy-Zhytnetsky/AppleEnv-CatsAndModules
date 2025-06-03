@@ -16,11 +16,13 @@ struct ContentView: View {
     @State private var nextPageToLoad = 0
     @State private var isLoadingNextPage = false
     @State private var hasFinishedInitialLoading = false
+    @State private var showCrashlyticsConsentAlert = false
     
     private struct Const {
         static let PAGE_SIZE = 15
         static let FETCH_CATS_TRACE = "fetch_cats_trace"
         static let SELECTED_CAT_BREED_LOG = "selected_cat_breed_log"
+        static let USER_CRASHLYTICS_CONSENT_KEY = "user_crashlytics_consent"
     }
     
     var body: some View {
@@ -57,6 +59,21 @@ struct ContentView: View {
         }
         .onAppear {
             loadNextPageIfAble()
+            checkCrashlyticsConsent()
+        }
+        .alert(isPresented: self.$showCrashlyticsConsentAlert) {
+            Alert(
+                title: Text("Crash Reporting"),
+                message: Text("Do you want to allow the app to send crash reports?"),
+                primaryButton: .default(Text("Allow")) {
+                    UserDefaults.standard.set(true, forKey: Const.USER_CRASHLYTICS_CONSENT_KEY)
+                    Crashlytics.crashlytics().setCrashlyticsCollectionEnabled(true)
+                },
+                secondaryButton: .cancel(Text("Don’t allow")) {
+                    UserDefaults.standard.set(false, forKey: Const.USER_CRASHLYTICS_CONSENT_KEY)
+                    Crashlytics.crashlytics().setCrashlyticsCollectionEnabled(false)
+                }
+            )
         }
         .padding()
     }
@@ -84,6 +101,16 @@ struct ContentView: View {
             )
         })
         .buttonStyle(.plain)
+    }
+    
+    private func checkCrashlyticsConsent() {
+        if (UserDefaults.standard.object(forKey: Const.USER_CRASHLYTICS_CONSENT_KEY) == nil) {
+            self.showCrashlyticsConsentAlert = true
+        }
+        else {
+            let consentDecision = UserDefaults.standard.bool(forKey: Const.USER_CRASHLYTICS_CONSENT_KEY)
+            Crashlytics.crashlytics().setCrashlyticsCollectionEnabled(consentDecision)
+        }
     }
     
     private func loadNextPageIfAble() {
