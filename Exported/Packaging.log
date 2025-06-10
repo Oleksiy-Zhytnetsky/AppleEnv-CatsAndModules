@@ -1,0 +1,243 @@
+2025-06-10 20:56:45 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x152ef7a40; archive(resolved)="<IDEArchive: 0x6000034c0150>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team(resolved)="<IDEProvisioningBasicTeam: 0x600001ec5640; teamID='D85QWSUNYA', teamName='National University of Kyiv-Mohyla Academy'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x152ef7a40; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="<IDEProvisioningBasicTeam: 0x600001ec5640; teamID='D85QWSUNYA', teamName='National University of Kyiv-Mohyla Academy'>">
+	<IDEDistributionProcessingPipelineContext: 0x152ef77b0; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="<IDEProvisioningBasicTeam: 0x600001ec5640; teamID='D85QWSUNYA', teamName='National University of Kyiv-Mohyla Academy'>">
+	<IDEDistributionContext: 0x152ef75a0; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="<IDEProvisioningBasicTeam: 0x600001ec5640; teamID='D85QWSUNYA', teamName='National University of Kyiv-Mohyla Academy'>">
+	<IDEDistributionContext: 0x152ecb000; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="<IDEProvisioningBasicTeam: 0x600001ec5640; teamID='D85QWSUNYA', teamName='National University of Kyiv-Mohyla Academy'>">
+	<IDEDistributionContext: 0x152ed7fd0; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="<IDEProvisioningBasicTeam: 0x600001ec5640; teamID='D85QWSUNYA', teamName='National University of Kyiv-Mohyla Academy'>">
+	<IDEDistributionContext: 0x152ed95d0; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="<IDEProvisioningBasicTeam: 0x600001ec5640; teamID='D85QWSUNYA', teamName='National University of Kyiv-Mohyla Academy'>">
+	<IDEDistributionContext: 0x152ed6f60; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="<IDEProvisioningBasicTeam: 0x600001ec5640; teamID='D85QWSUNYA', teamName='National University of Kyiv-Mohyla Academy'>">
+	<IDEDistributionContext: 0x142e20c10; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="<IDEProvisioningBasicTeam: 0x600001ec5640; teamID='D85QWSUNYA', teamName='National University of Kyiv-Mohyla Academy'>">
+	<IDEDistributionContext: 0x152ed5000; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="<IDEProvisioningBasicTeam: 0x600001ec5640; teamID='D85QWSUNYA', teamName='National University of Kyiv-Mohyla Academy'>">
+	<IDEDistributionContext: 0x152ed4df0; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="(null)">
+	<IDEDistributionContext: 0x152ed49e0; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="(null)">
+	<IDEDistributionContext: 0x152ed47d0; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="(null)">
+	<IDEDistributionContext: 0x142e08400; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001d26ea0>", team="(null)">
+	<IDEDistributionContext: 0x152f538a0; archive = "<IDEArchive: 0x6000034c0150>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x152ef7a40>
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2025-06-10 20:56:45 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/oleksiy/Documents/KMA/SWE-3/Summer/Apple-Env/L3/Homework/release.xcarchive/Products/Applications/CatsUI.app' '/var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/Root/Payload/CatsUI.app'
+2025-06-10 20:56:45 +0000  >>> Copying /Users/oleksiy/Documents/KMA/SWE-3/Summer/Apple-Env/L3/Homework/release.xcarchive/Products/Applications/CatsUI.app 
+2025-06-10 20:56:45 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-06-10 20:56:45 +0000  11183 bytes for ./_CodeSignature/CodeResources
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  855 bytes for ./Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseCore.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  692 bytes for ./Firebase_FirebaseCore.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  1383 bytes for ./Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseCrashlytics.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  706 bytes for ./Firebase_FirebaseCrashlytics.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./nanopb_nanopb.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  374 bytes for ./nanopb_nanopb.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./nanopb_nanopb.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  666 bytes for ./nanopb_nanopb.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./CatsUI ... 
+2025-06-10 20:56:45 +0000  1682944 bytes for ./CatsUI
+2025-06-10 20:56:45 +0000  copying file ./GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  718 bytes for ./GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  1105 bytes for ./Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseInstallations.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  710 bytes for ./Firebase_FirebaseInstallations.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  855 bytes for ./Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseCoreInternal.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  708 bytes for ./Firebase_FirebaseCoreInternal.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  718 bytes for ./GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./GoogleService-Info.plist ... 
+2025-06-10 20:56:45 +0000  522 bytes for ./GoogleService-Info.plist
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  478 bytes for ./Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseABTesting.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  702 bytes for ./Firebase_FirebaseABTesting.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  1105 bytes for ./GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./GoogleDataTransport_GoogleDataTransport.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  720 bytes for ./GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  373 bytes for ./Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./Promises_FBLPromises.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  682 bytes for ./Promises_FBLPromises.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  478 bytes for ./Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./Firebase_FirebaseCoreExtension.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  710 bytes for ./Firebase_FirebaseCoreExtension.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  911 bytes for ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  730 bytes for ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./Promises_Promises.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  373 bytes for ./Promises_Promises.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./Promises_Promises.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  676 bytes for ./Promises_Promises.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  855 bytes for ./GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  728 bytes for ./GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:45 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:45 +0000  copying file ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist ... 
+2025-06-10 20:56:45 +0000  734 bytes for ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+2025-06-10 20:56:45 +0000  copying file ./embedded.mobileprovision ... 
+2025-06-10 20:56:45 +0000  12612 bytes for ./embedded.mobileprovision
+2025-06-10 20:56:45 +0000  copying file ./Info.plist ... 
+2025-06-10 20:56:45 +0000  1264 bytes for ./Info.plist
+2025-06-10 20:56:45 +0000  copying file ./PkgInfo ... 
+2025-06-10 20:56:45 +0000  8 bytes for ./PkgInfo
+2025-06-10 20:56:45 +0000 [MT] /usr/bin/ditto exited with 0
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2025-06-10 20:56:45 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2025-06-10 20:56:45 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2025-06-10 20:56:45 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2025-06-10 20:56:45 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2025-06-10 20:56:45 +0000 [MT] Item /Users/oleksiy/Documents/KMA/SWE-3/Summer/Apple-Env/L3/Homework/release.xcarchive/Products/Applications/CatsUI.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-06-10 20:56:45 +0000 [MT] Archs to thin for item /Users/oleksiy/Documents/KMA/SWE-3/Summer/Apple-Env/L3/Homework/release.xcarchive/Products/Applications/CatsUI.app are ["arm64e"]
+2025-06-10 20:56:45 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/Root/Payload/CatsUI.app/CatsUI' '-verify_arch' 'arm64e'
+2025-06-10 20:56:45 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-06-10 20:56:45 +0000 [MT] Skipping architecture thinning for item "CatsUI" because arch "arm64e" wasn't found
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionODRStep
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2025-06-10 20:56:45 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-06-10 20:56:45 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2025-06-10 20:56:45 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003bc5f20; bundleID='ua.edu.ukma.apple-env.zhytnetskyi.CatsUI', path='<DVTFilePath:0x600003b02880:'/Users/oleksiy/Documents/KMA/SWE-3/Summer/Apple-Env/L3/Homework/release.xcarchive/Products/Applications/CatsUI.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003bc23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002a68180; name='Apple Development: Oleksandr Frankiv (3LK7D4G6NM)', hash='331150FB004450A5751037FF6F33FFF33B5B02AC', serialNumber='2FC3A67D9B088509DF70D988696EC4D4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-05-28 11:57:43 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.zhytnetskyi.CatsUI";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.zhytnetskyi.CatsUI', executablePath='<DVTFilePath:0x600003b36be0:'/Users/oleksiy/Documents/KMA/SWE-3/Summer/Apple-Env/L3/Homework/release.xcarchive/Products/Applications/CatsUI.app/CatsUI'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.zhytnetskyi.CatsUI";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}
+2025-06-10 20:56:45 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-06-10 20:56:45 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003bc5f20; bundleID='ua.edu.ukma.apple-env.zhytnetskyi.CatsUI', path='<DVTFilePath:0x600003b02880:'/Users/oleksiy/Documents/KMA/SWE-3/Summer/Apple-Env/L3/Homework/release.xcarchive/Products/Applications/CatsUI.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003bc23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002a68240; name='Apple Development: Oleksandr Frankiv (3LK7D4G6NM)', hash='331150FB004450A5751037FF6F33FFF33B5B02AC', serialNumber='2FC3A67D9B088509DF70D988696EC4D4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-05-28 11:57:43 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.zhytnetskyi.CatsUI";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.zhytnetskyi.CatsUI', executablePath='<DVTFilePath:0x600003b36be0:'/Users/oleksiy/Documents/KMA/SWE-3/Summer/Apple-Env/L3/Homework/release.xcarchive/Products/Applications/CatsUI.app/CatsUI'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.zhytnetskyi.CatsUI";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}
+2025-06-10 20:56:45 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600003bc5f20; bundleID='ua.edu.ukma.apple-env.zhytnetskyi.CatsUI', path='<DVTFilePath:0x600003b02880:'/Users/oleksiy/Documents/KMA/SWE-3/Summer/Apple-Env/L3/Homework/release.xcarchive/Products/Applications/CatsUI.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003bc23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002a68240; name='Apple Development: Oleksandr Frankiv (3LK7D4G6NM)', hash='331150FB004450A5751037FF6F33FFF33B5B02AC', serialNumber='2FC3A67D9B088509DF70D988696EC4D4', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-05-28 11:57:43 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.zhytnetskyi.CatsUI";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.zhytnetskyi.CatsUI', executablePath='<DVTFilePath:0x600003b36be0:'/Users/oleksiy/Documents/KMA/SWE-3/Summer/Apple-Env/L3/Homework/release.xcarchive/Products/Applications/CatsUI.app/CatsUI'>', hardenedRuntime='0'>'> to: /var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/entitlements~~~5Lq0Ug
+2025-06-10 20:56:45 +0000 [MT] invoking codesign: <NSConcreteTask: 0x600003f08050; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    331150FB004450A5751037FF6F33FFF33B5B02AC,
+    "--entitlements",
+    "/var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/entitlements~~~5Lq0Ug",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/Root/Payload/CatsUI.app"
+)'>
+2025-06-10 20:56:46 +0000 [MT] codesign output: /var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/Root/Payload/CatsUI.app: replacing existing signature
+/var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/Root/Payload/CatsUI.app: signed app bundle with Mach-O thin (arm64) [ua.edu.ukma.apple-env.zhytnetskyi.CatsUI]
+2025-06-10 20:56:46 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2025-06-10 20:56:46 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-06-10 20:56:46 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2025-06-10 20:56:46 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/Root' '/var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/Packages/CatsUI.ipa'
+2025-06-10 20:56:46 +0000  >>> Copying /var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/Root 
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/_CodeSignature/CodeResources ... 
+2025-06-10 20:56:46 +0000  11183 bytes for ./Payload/CatsUI.app/_CodeSignature/CodeResources
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  855 bytes for ./Payload/CatsUI.app/Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseCore.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  692 bytes for ./Payload/CatsUI.app/Firebase_FirebaseCore.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  1383 bytes for ./Payload/CatsUI.app/Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseCrashlytics.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  706 bytes for ./Payload/CatsUI.app/Firebase_FirebaseCrashlytics.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/nanopb_nanopb.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  374 bytes for ./Payload/CatsUI.app/nanopb_nanopb.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsUI.app/nanopb_nanopb.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  666 bytes for ./Payload/CatsUI.app/nanopb_nanopb.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/CatsUI ... 
+2025-06-10 20:56:46 +0000  1682944 bytes for ./Payload/CatsUI.app/CatsUI
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  478 bytes for ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  718 bytes for ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  1105 bytes for ./Payload/CatsUI.app/Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseInstallations.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  710 bytes for ./Payload/CatsUI.app/Firebase_FirebaseInstallations.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  855 bytes for ./Payload/CatsUI.app/Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseCoreInternal.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  708 bytes for ./Payload/CatsUI.app/Firebase_FirebaseCoreInternal.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  478 bytes for ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  718 bytes for ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleService-Info.plist ... 
+2025-06-10 20:56:46 +0000  522 bytes for ./Payload/CatsUI.app/GoogleService-Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy ... 
+478 bytes for ./Payload/CatsUI.app/Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseABTesting.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  702 bytes for ./Payload/CatsUI.app/Firebase_FirebaseABTesting.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  1105 bytes for ./Payload/CatsUI.app/GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  720 bytes for ./Payload/CatsUI.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  373 bytes for ./Payload/CatsUI.app/Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsUI.app/Promises_FBLPromises.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  682 bytes for ./Payload/CatsUI.app/Promises_FBLPromises.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  478 bytes for ./Payload/CatsUI.app/Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Firebase_FirebaseCoreExtension.bundle/Info.plist ... 
+710 bytes for ./Payload/CatsUI.app/Firebase_FirebaseCoreExtension.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  911 bytes for ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  730 bytes for ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Promises_Promises.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  373 bytes for ./Payload/CatsUI.app/Promises_Promises.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsUI.app/Promises_Promises.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  676 bytes for ./Payload/CatsUI.app/Promises_Promises.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  855 bytes for ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  728 bytes for ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy ... 
+2025-06-10 20:56:46 +0000  478 bytes for ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist ... 
+2025-06-10 20:56:46 +0000  734 bytes for ./Payload/CatsUI.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/embedded.mobileprovision ... 
+2025-06-10 20:56:46 +0000  12612 bytes for ./Payload/CatsUI.app/embedded.mobileprovision
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/Info.plist ... 
+2025-06-10 20:56:46 +0000  1264 bytes for ./Payload/CatsUI.app/Info.plist
+2025-06-10 20:56:46 +0000  copying file ./Payload/CatsUI.app/PkgInfo ... 
+8 bytes for ./Payload/CatsUI.app/PkgInfo
+2025-06-10 20:56:46 +0000 [MT] /usr/bin/ditto exited with 0
+2025-06-10 20:56:46 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2025-06-10 20:56:46 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-06-10 20:56:46 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-06-10 20:56:46 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003bfdc20:'/var/folders/zh/g7mh2kx11vbb3xwlgx0lyp5r0000gn/T/XcodeDistPipeline.~~~jSzCTD/Root/Payload/CatsUI.app'>
+2025-06-10 20:56:46 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
