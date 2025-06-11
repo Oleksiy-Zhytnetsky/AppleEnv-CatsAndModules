@@ -1,0 +1,7 @@
+workspace("CatsAndModules_OleksiyZhytnetskyi.xcworkspace")
+scheme("CatsUI")
+clean(true)
+configuration("Release")
+destination("generic/platform=iOS")
+export_method("development")
+codesigning_identity("Apple Development: Oleksandr Frankiv (3LK7D4G6NM)")
