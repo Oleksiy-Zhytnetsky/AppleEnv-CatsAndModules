@@ -4,4 +4,12 @@ clean(true)
 configuration("Release")
 destination("generic/platform=iOS")
 export_method("development")
+export_team_id("D85QWSUNYA")
 codesigning_identity("Apple Development: Oleksandr Frankiv (3LK7D4G6NM)")
+export_options({
+  signingStyle: "manual",
+  signingCertificate: "Apple Development: Oleksandr Frankiv (3LK7D4G6NM)",
+  provisioningProfiles: {
+    "ua.edu.ukma.apple-env.zhytnetskyi.CatsUI" => "b7dfe22a-564d-41a5-8ca2-e1ffbe983b91"
+  }
+})
