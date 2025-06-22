@@ -16,9 +16,17 @@
 default_platform(:ios)
 
 platform :ios do
+  lane :build_and_export do
+    gym
 
-  lane :beta do
-    build_app
+    firebase_app_distribution(
+      app: "1:534116654814:ios:6ea475b0f8baaf4f4f2c4f",
+      testers: "o.frankiv@ukma.edu.ua",
+      release_notes: "Added automated build/export CI using fastlane"
+    )
   end
 
+  lane :take_screenshots do
+    #
+  end
 end
