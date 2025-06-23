@@ -12,14 +12,30 @@
 		4DB553022DE619FE00CD2FC2 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB553012DE619FE00CD2FC2 /* Networking */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4D3026F42E09490200002C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D25F01B2DE611DC0045220F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D25F0222DE611DC0045220F;
+			remoteInfo = CatsUI;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		4D25F0232DE611DC0045220F /* CatsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3026EE2E09490200002C78 /* CatsUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4D25F0252DE611DC0045220F /* CatsUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CatsUI;
+			sourceTree = "<group>";
+		};
+		4D3026EF2E09490200002C78 /* CatsUIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatsUIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -35,6 +51,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D3026EB2E09490200002C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -42,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				4D25F0252DE611DC0045220F /* CatsUI */,
+				4D3026EF2E09490200002C78 /* CatsUIUITests */,
 				4DB553002DE619FE00CD2FC2 /* Frameworks */,
 				4D25F0242DE611DC0045220F /* Products */,
 			);
@@ -51,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				4D25F0232DE611DC0045220F /* CatsUI.app */,
+				4D3026EE2E09490200002C78 /* CatsUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +116,29 @@
 			productReference = 4D25F0232DE611DC0045220F /* CatsUI.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4D3026ED2E09490200002C78 /* CatsUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3026F62E09490200002C78 /* Build configuration list for PBXNativeTarget "CatsUIUITests" */;
+			buildPhases = (
+				4D3026EA2E09490200002C78 /* Sources */,
+				4D3026EB2E09490200002C78 /* Frameworks */,
+				4D3026EC2E09490200002C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3026F52E09490200002C78 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4D3026EF2E09490200002C78 /* CatsUIUITests */,
+			);
+			name = CatsUIUITests;
+			packageProductDependencies = (
+			);
+			productName = CatsUIUITests;
+			productReference = 4D3026EE2E09490200002C78 /* CatsUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,11 +146,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1630;
+				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					4D25F0222DE611DC0045220F = {
 						CreatedOnToolsVersion = 16.3;
+					};
+					4D3026ED2E09490200002C78 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4D25F0222DE611DC0045220F;
 					};
 				};
 			};
@@ -124,12 +176,20 @@
 			projectRoot = "";
 			targets = (
 				4D25F0222DE611DC0045220F /* CatsUI */,
+				4D3026ED2E09490200002C78 /* CatsUIUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4D25F0212DE611DC0045220F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3026EC2E09490200002C78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -173,7 +233,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D3026EA2E09490200002C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D3026F52E09490200002C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D25F0222DE611DC0045220F /* CatsUI */;
+			targetProxy = 4D3026F42E09490200002C78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4D25F02C2DE611DD0045220F /* Debug */ = {
@@ -372,6 +447,42 @@
 			};
 			name = Release;
 		};
+		4D3026F72E09490200002C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D85QWSUNYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.apple-env.zhytnetskyi.CatsUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatsUI;
+			};
+			name = Debug;
+		};
+		4D3026F82E09490200002C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D85QWSUNYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.apple-env.zhytnetskyi.CatsUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatsUI;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -389,6 +500,15 @@
 			buildConfigurations = (
 				4D25F02F2DE611DD0045220F /* Debug */,
 				4D25F0302DE611DD0045220F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3026F62E09490200002C78 /* Build configuration list for PBXNativeTarget "CatsUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3026F72E09490200002C78 /* Debug */,
+				4D3026F82E09490200002C78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

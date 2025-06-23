@@ -27,6 +27,6 @@ platform :ios do
   end
 
   lane :take_screenshots do
-    #
+    snapshot
   end
 end

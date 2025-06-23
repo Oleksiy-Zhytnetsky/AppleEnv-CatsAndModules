@@ -1,0 +1,18 @@
+workspace("CatsAndModules_OleksiyZhytnetskyi.xcworkspace")
+scheme("CatsUI")
+
+devices([
+    "iPhone 13",
+    "iPhone SE (2nd generation)"
+])
+
+languages([
+    "en-US",
+    "de-DE"
+])
+
+clear_previous_screenshots(true)
+override_status_bar(true)
+
+output_directory("./screenshots")
+
